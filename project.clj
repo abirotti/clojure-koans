@@ -5,5 +5,5 @@
   :dev-dependencies [[lein-koan "0.1.2"]]
   :profiles {:dev {:dependencies [[lein-koan "0.1.2"]]}}
   :repl-options {:init-ns user}
-  :plugins [[lein-koan "0.1.2"]]
+  :plugins [[lein-koan "0.1.2"][lein-idea "1.0.1"]]
   :main koan-engine.runner/exec)
